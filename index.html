@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="Loan.css">
+
+    <title>Loan Approval</title>
+</head>
+<body>
+<fieldset>
+<form id = "sub">
+
+        <legend>Loan Approval Form</legend>
+        <label for="salary">Salary:</label>
+        <input type="number" name="salary" id = salary>
+        <br><br>
+        <label for="creditscore">Credit Score:</label>
+        <input type="number" name="creditscore" id = creditscore>
+        <br><br>
+        <label for="jobMonths">Months At Job</label>
+        <input type="number" name="jobMonths" id = jobMonths>
+        <br><br>
+        <p id = Approval></p>
+
+    <button id = Submit type = "submit">Submit</button>
+</form>
+</fieldset>
+</body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="code.js"></script>
+</html>
